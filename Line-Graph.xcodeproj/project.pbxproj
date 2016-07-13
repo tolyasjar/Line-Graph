@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C83ADA1A1D357A9A006930BC /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83ADA191D357A9A006930BC /* LineGraphView.swift */; };
+		C83ADA1C1D357CC6006930BC /* RandomPointGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83ADA1B1D357CC6006930BC /* RandomPointGenerator.swift */; };
 		C863EC931D35563C0030F22F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863EC921D35563C0030F22F /* AppDelegate.swift */; };
 		C863EC951D35563C0030F22F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863EC941D35563C0030F22F /* ViewController.swift */; };
 		C863EC981D35563C0030F22F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C863EC961D35563C0030F22F /* Main.storyboard */; };
 		C863EC9A1D35563C0030F22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C863EC991D35563C0030F22F /* Assets.xcassets */; };
 		C863EC9D1D35563C0030F22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C863EC9B1D35563C0030F22F /* LaunchScreen.storyboard */; };
-		C863ECA51D35565A0030F22F /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863ECA41D35565A0030F22F /* LineGraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C83ADA191D357A9A006930BC /* LineGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
+		C83ADA1B1D357CC6006930BC /* RandomPointGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomPointGenerator.swift; sourceTree = "<group>"; };
 		C863EC8F1D35563C0030F22F /* Line-Graph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Line-Graph.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C863EC921D35563C0030F22F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C863EC941D35563C0030F22F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +26,6 @@
 		C863EC991D35563C0030F22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C863EC9C1D35563C0030F22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C863EC9E1D35563C0030F22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C863ECA41D35565A0030F22F /* LineGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,8 @@
 		C863EC861D35563C0030F22F = {
 			isa = PBXGroup;
 			children = (
-				C863ECA41D35565A0030F22F /* LineGraphView.swift */,
+				C83ADA1B1D357CC6006930BC /* RandomPointGenerator.swift */,
+				C83ADA191D357A9A006930BC /* LineGraphView.swift */,
 				C863EC911D35563C0030F22F /* Line-Graph */,
 				C863EC901D35563C0030F22F /* Products */,
 			);
@@ -57,9 +60,9 @@
 		C863EC911D35563C0030F22F /* Line-Graph */ = {
 			isa = PBXGroup;
 			children = (
-				C863EC921D35563C0030F22F /* AppDelegate.swift */,
 				C863EC941D35563C0030F22F /* ViewController.swift */,
 				C863EC961D35563C0030F22F /* Main.storyboard */,
+				C863EC921D35563C0030F22F /* AppDelegate.swift */,
 				C863EC991D35563C0030F22F /* Assets.xcassets */,
 				C863EC9B1D35563C0030F22F /* LaunchScreen.storyboard */,
 				C863EC9E1D35563C0030F22F /* Info.plist */,
@@ -140,7 +143,8 @@
 			files = (
 				C863EC951D35563C0030F22F /* ViewController.swift in Sources */,
 				C863EC931D35563C0030F22F /* AppDelegate.swift in Sources */,
-				C863ECA51D35565A0030F22F /* LineGraphView.swift in Sources */,
+				C83ADA1A1D357A9A006930BC /* LineGraphView.swift in Sources */,
+				C83ADA1C1D357CC6006930BC /* RandomPointGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				C863ECA31D35563C0030F22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
